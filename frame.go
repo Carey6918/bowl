@@ -14,14 +14,11 @@ type Frame interface {
 }
 
 type Strike struct {
-	Frame
 }
 type Spare struct {
-	Frame
 	FirstPins int
 }
 type Remain struct {
-	Frame
 	FirstPins  int
 	SecondPins int
 }
